@@ -12,7 +12,7 @@ function validar() {
 
     if (get_nome == usuario && get_senha == pass) {
         //alert("Deu certo")
-        window.location.assign("menu.html")
+        window.location.assign("menu.php")
     } else {
         window.alert("Usuario e/ou get_senha errado(s)")
     }

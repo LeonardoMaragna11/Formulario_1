@@ -8,5 +8,10 @@
 </head>
 <body>
     <h1>Chegou</h1>
+    <?php 
+        $user = "Batata";
+        echo($user);
+    
+    ?>
 </body>
 </html>

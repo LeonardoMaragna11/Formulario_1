@@ -1,4 +1,4 @@
-function valida () {
+function valida() {
     const usuario = 'user'
     const pass = 'pass'
 

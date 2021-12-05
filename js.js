@@ -1,4 +1,4 @@
-function validar() {
+function valida () {
     const usuario = 'user'
     const pass = 'pass'
 
@@ -11,7 +11,8 @@ function validar() {
 
 
     if(get_nome == usuario && get_senha == pass){
-        window.location.replace("https://www.google.com")
+        alert("Deu certo")
+        //window.location.replace("https://www.google.com")
     }else{
         window.alert("Usuario e/ou senha errado(s)")
     }

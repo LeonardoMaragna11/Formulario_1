@@ -15,12 +15,12 @@
         <h2>Insira Seus dados</h2>
         <form action="">
             <div class="mb-3 mt-3">
-                <label for="nome">Nome:</label>
-                <input type="text" class="form-control" id="nome" name="nome" style="max-width: 300px;">
+                <label for="get_nome">get_Nome:</label>
+                <input type="text" class="form-control" id="get_nome" name="nome" style="max-width: 300px;">
             </div>
             <div class="mb-3">
-                <label for="senha">Senha:</label>
-                <input type="password" class="form-control" id="senha" name="senha" style="max-width: 300px;">
+                <label for="get_senha">get_Senha:</label>
+                <input type="password" class="form-control" id="get_senha" name="senha" style="max-width: 300px;">
             </div>
 
         </form>
@@ -33,18 +33,18 @@
         const usuario = 'user'
         const pass = 'pass'
 
-        var nome = document.getElementById('nome')
-        nome = nome.value
+        var get_nome = document.getElementById('get_nome')
+        get_nome = get_nome.value
 
-        var senha = document.getElementById('senha')
-        senha = senha.value
+        var get_senha = document.getElementById('get_senha')
+        get_senha = get_senha.value
 
 
-        if (nome == usuario && senha == pass) {
+        if (get_nome == usuario && get_senha == pass) {
             //alert("Deu certo")
             window.location.assign("menu.html")
         } else {
-            window.alert("Usuario e/ou senha errado(s)")
+            window.alert("Usuario e/ou get_senha errado(s)")
         }
     }
 </script>
